@@ -5,15 +5,15 @@
   "fields": [
     {
       "name": "remaining",
-      "type": "int"
+      "type": "long"
     },
     {
       "name": "reset",
-      "type": "int"
+      "type": "long"
     },
     {
       "name": "limit",
-      "type": "int"
+      "type": "long"
     }
   ]
 }

@@ -12,6 +12,7 @@
       "type": [
         "null",
         "limitd.PutBody",
+        "limitd.TakeBody",
         "limitd.StatusBody",
         "limitd.ErrorBody"
       ],

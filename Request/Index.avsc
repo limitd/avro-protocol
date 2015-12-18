@@ -23,19 +23,23 @@
     },
     {
       "name": "type",
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     {
       "name": "key",
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     {
       "name": "count",
-      "type": "int"
+      "type": "long",
+      "default": 0
     },
     {
       "name": "all",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   ]
 }
