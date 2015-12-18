@@ -1,0 +1,19 @@
+{
+  "namespace": "limitd",
+  "name": "Bucket",
+  "type": "record",
+  "fields": [
+    {
+      "name": "remaining",
+      "type": "int"
+    },
+    {
+      "name": "reset",
+      "type": "int"
+    },
+    {
+      "name": "limit",
+      "type": "int"
+    }
+  ]
+}

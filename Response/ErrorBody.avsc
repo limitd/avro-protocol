@@ -1,0 +1,17 @@
+{
+  "namespace": "limitd",
+  "name": "ErrorBody",
+  "type": "record",
+  "fields": [
+    {
+      "name": "code",
+      "type": {
+        "name": "error_codes",
+        "type": "enum",
+        "symbols": [
+          "UNKNOWN_BUCKET_TYPE"
+        ]
+      }
+    }
+  ]
+}

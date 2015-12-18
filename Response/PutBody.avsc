@@ -1,0 +1,11 @@
+{
+  "namespace": "limitd",
+  "name": "PutBody",
+  "type": "record",
+  "fields": [
+    {
+      "name": "bucket",
+      "type": "limitd.Bucket"
+    }
+  ]
+}

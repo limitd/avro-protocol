@@ -1,0 +1,41 @@
+{
+  "namespace": "limitd",
+  "name": "Request",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "method",
+      "type": {
+        "name": "method",
+        "type": "enum",
+        "symbols": [
+          "TAKE",
+          "WAIT",
+          "PUT",
+          "STATUS",
+          "PING"
+        ]
+      }
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "key",
+      "type": "string"
+    },
+    {
+      "name": "count",
+      "type": "int"
+    },
+    {
+      "name": "all",
+      "type": "boolean"
+    }
+  ]
+}

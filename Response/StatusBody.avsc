@@ -1,0 +1,14 @@
+{
+  "namespace": "limitd",
+  "name": "StatusBody",
+  "type": "record",
+  "fields": [
+    {
+      "name":   "items",
+      "type":   {
+        "type": "map",
+        "values": "limitd.Bucket"
+      }
+    }
+  ]
+}

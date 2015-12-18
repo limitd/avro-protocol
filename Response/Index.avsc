@@ -1,0 +1,21 @@
+{
+  "namespace": "limitd",
+  "name": "Response",
+  "type": "record",
+  "fields": [
+    {
+      "name": "request_id",
+      "type": "string"
+    },
+    {
+      "name": "body",
+      "type": [
+        "null",
+        "limitd.PutBody",
+        "limitd.StatusBody",
+        "limitd.ErrorBody"
+      ],
+      "default": null
+    }
+  ]
+}

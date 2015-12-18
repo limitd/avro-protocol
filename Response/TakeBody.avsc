@@ -1,0 +1,21 @@
+{
+  "namespace": "limitd",
+  "name": "TakeBody",
+  "type": "record",
+  "fields": [
+    {
+      "name": "bucket",
+      "type": "limitd.Bucket"
+    },
+    {
+      "name": "conformant",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "name": "delayed",
+      "type": "boolean",
+      "default": false
+    }
+  ]
+}
