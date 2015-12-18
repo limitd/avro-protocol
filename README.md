@@ -1,0 +1,1 @@
+An [AVRO](https://avro.apache.org/) protocol for limitd.
